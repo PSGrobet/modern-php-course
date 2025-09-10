@@ -1020,4 +1020,87 @@ Brief description of what students will learn and build.
 Preview of what comes next in Chapter X+1.
 ```
 
+### Code Formatting
+
+#### Indentation and Spacing
+
+```php
+<?php
+// Use 4 spaces for indentation (no tabs)
+if ($user_is_logged_in) {
+    echo "Welcome back!";
+
+    if ($has_new_messages) {
+        echo "You have new messages!";
+    }
+}
+
+// Space around operators
+$total = $price + $tax;              // Good
+$total=$price+$tax;                  // Bad
+
+// Space after commas
+function calculate_total($price, $tax, $discount) {  // Good
+function calculate_total($price,$tax,$discount) {    // Bad
+```
+
+#### PHP and HTML Integration
+
+For larger blocks of HTML content, use PHP tags within HTML rather than multiple echo statements:
+
+```php
+<!-- Good: PHP tags within HTML for larger content blocks -->
+<div class="post-card">
+    <header class="post-header">
+        <h3 class="post-title"><?php echo htmlspecialchars($post['title']); ?></h3>
+        <div class="post-meta">
+            <span class="author">By <?php echo htmlspecialchars($post['username']); ?></span>
+            <time class="date"><?php echo date('M j, Y', strtotime($post['created_at'])); ?></time>
+        </div>
+    </header>
+    <div class="post-content">
+        <p><?php echo nl2br(htmlspecialchars($post['content'])); ?></p>
+        <?php if (!empty($post['image_url'])): ?>
+            <img src="<?php echo htmlspecialchars($post['image_url']); ?>" alt="Post image" class="post-image">
+        <?php endif; ?>
+    </div>
+    <footer class="post-actions">
+        <button class="btn-like" data-post-id="<?php echo $post['id']; ?>">
+            Like (<?php echo $post['like_count']; ?>)
+        </button>
+        <a href="post.php?id=<?php echo $post['id']; ?>" class="btn-comment">
+            Comments (<?php echo $post['comment_count']; ?>)
+        </a>
+    </footer>
+</div>
+
+<!-- Avoid: Multiple echo statements for large HTML blocks -->
+<?php
+echo "<div class='post-card'>";
+echo "<header class='post-header'>";
+echo "<h3 class='post-title'>" . htmlspecialchars($post['title']) . "</h3>";
+echo "<div class='post-meta'>";
+echo "<span class='author'>By " . htmlspecialchars($post['username']) . "</span>";
+echo "<time class='date'>" . date('M j, Y', strtotime($post['created_at'])) . "</time>";
+echo "</div>";
+echo "</header>";
+// ... and so on (harder to read and maintain)
+?>
+
+<!-- Exception: Short, simple output can use echo -->
+<?php
+echo "<p>Welcome, " . htmlspecialchars($username) . "!</p>";
+echo "<div class='alert success'>Account created successfully!</div>";
+?>
+```
+
+**Guidelines for PHP/HTML mixing:**
+
+- Use PHP tags within HTML for content blocks larger than 3-4 lines
+- Single-line output can use echo statements
+- Always use `htmlspecialchars()` for user data in HTML context
+- Use proper indentation to maintain HTML structure readability
+- Close PHP tags when switching back to HTML (`?>`)
+- Reopen PHP tags when needed (`<?php`)
+
 This comprehensive code style guide ensures consistency, readability, and maintainability across all 120+ lessons while teaching professional development practices!

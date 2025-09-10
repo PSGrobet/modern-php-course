@@ -4,7 +4,16 @@
 
 Use this template for every lesson to maintain consistency across the entire course.
 
-```markdown
+## Length Considerations:
+
+* Accumulated length of exercise files should be no more than 200 lines of code per lesson.
+
+* Simplified examples, reduce redundancy.
+
+* Use linked `styles.css` documents (add new ones as necessary) that can be shared and added to as the lessons progress.
+
+---
+
 # Chapter X, Lesson X.X: [Descriptive Title]
 
 **Goal:** [One clear sentence describing what students will achieve]  
@@ -28,6 +37,7 @@ In this lesson, you will:
 ## Why This Matters
 
 [2-3 paragraphs explaining:]
+
 - How this concept applies to social platforms specifically
 - Why this is important for real-world development
 - How this builds on previous lessons
@@ -44,6 +54,7 @@ In this lesson, you will:
 **In Context:** [How this applies to our social platform]
 
 **Example:**
+
 ```php
 // Brief, focused code example
 // With comments explaining each part
