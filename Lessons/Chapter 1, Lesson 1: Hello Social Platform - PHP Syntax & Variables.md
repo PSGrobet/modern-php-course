@@ -342,7 +342,7 @@ body {
 
 .bio {
     font-size: 1rem;
-    color: #333;
+    color: #acacac;
     margin-bottom: 10px;
     font-style: italic;
 }
