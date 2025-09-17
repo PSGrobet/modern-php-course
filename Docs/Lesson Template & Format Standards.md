@@ -2,308 +2,293 @@
 
 ## Standard Lesson Template
 
-Use this template for every lesson to maintain consistency across the entire course.
+**Key Constraints:**
 
-## Length Considerations:
-
-* Accumulated length of exercise files should be no more than 200 lines of code per lesson.
-
-* Simplified examples, reduce redundancy.
-
-* Use linked `styles.css` documents (add new ones as necessary) that can be shared and added to as the lessons progress.
+- **100 lines of new code maximum per lesson** (excluding shared CSS)
+- **One CSS file per chapter** (styles.css) - shared across all lessons
+- **Focus on PHP functionality** - minimal design complexity
+- **Dark theme with reusable classes**
 
 ---
 
 # Chapter X, Lesson X.X: [Descriptive Title]
 
 **Goal:** [One clear sentence describing what students will achieve]  
-**Time:** [Estimated duration: 1-2 hours]  
-**Prerequisites:** [What they need to know first]  
-**Files:** [List of files they'll create/modify in this lesson]
+**Time:** 1-2 hours  
+**Prerequisites:** [Previous lesson or specific knowledge]  
+**New Code:** ~100 lines PHP/HTML
 
 ---
 
-## What You'll Learn
+## What You'll Build
 
 In this lesson, you will:
 
-- [Learning objective 1]
-- [Learning objective 2]
-- [Learning objective 3]
-- [Learning objective 4 - max 5 objectives]
+- [Specific functionality 1]
+- [Specific functionality 2]
+- [Specific functionality 3]
 
 ---
 
 ## Why This Matters
 
-[2-3 paragraphs explaining:]
-
-- How this concept applies to social platforms specifically
-- Why this is important for real-world development
-- How this builds on previous lessons
-- Where this will be used in the final project
+[1-2 paragraphs explaining the PHP concepts and their practical application to social platforms]
 
 ---
 
-## Core Concepts
+## Core Concept: [Main PHP Topic]
 
-### Concept 1: [Name]
+**Definition:** [Clear explanation of the PHP concept]
 
-**Definition:** [Clear, simple explanation]
-
-**In Context:** [How this applies to our social platform]
-
-**Example:**
+**Syntax:**
 
 ```php
-// Brief, focused code example
-// With comments explaining each part
+// Focused code example showing the concept
+$example = "Clear, practical demonstration";
 ```
 
-**Key Points:**
-
-- [Important detail 1]
-- [Important detail 2]
-- [Important detail 3]
-
-### Concept 2: [Name]
-
-[Follow same format as Concept 1]
-
-### [Additional concepts as needed - max 4 per lesson]
+**In Our Platform:** [How this applies to the social platform feature]
 
 ---
 
-## Building It Step-by-Step
+## Step-by-Step Implementation
 
-### Step 1: [Descriptive Action Title]
+### Step 1: [Descriptive Action]
 
-**What we're doing:** [Brief explanation of this step's purpose]
-
-**The Code:**
+**What we're doing:** [Brief purpose explanation]
 
 ```php
 <?php
 /**
- * Social Platform Project - Chapter X, Lesson X.X
- * [Brief description of file purpose]
+ * Social Platform - Chapter X, Lesson X.X
+ * [File purpose]
  */
 
-// Complete, working code here
-// Every line commented for beginners in Section 1
-// Professional comments for Section 2
+// New code for this step (10-20 lines)
+// Clear comments explaining PHP-specific parts
 ?>
 ```
 
-**Understanding the Code:** [Explanation of what each major part does]
+**Key PHP Points:**
 
-**Testing It:** [How to verify this step works]
+- [Important concept 1]
+- [Important concept 2]
 
 ### Step 2: [Next Action]
 
-[Continue same format]
+[Continue same format - keep each step focused and small]
 
-### [Additional steps as needed]
+### Step 3: [Final Integration]
+
+[Show how pieces connect]
 
 ---
 
-## Complete Code Files
+## Complete Code
 
 ### filename.php
 
 ```php
-[Complete, final version of the file]
-[Fully functional and tested]
-[Includes all error handling]
-[Properly commented]
-```
+<?php
+/**
+ * Social Platform - Chapter X, Lesson X.X  
+ * [Complete file description]
+ */
 
-### [Additional files as created]
+// Complete, working code (max 100 lines)
+// Every line commented for learning
+// Includes error handling and security basics
+?>
+```
 
 ---
 
 ## Testing Your Work
 
-### Quick Test Checklist:
+### Quick Verification:
 
-- [ ] [Specific thing to verify]
-- [ ] [Another verification step]
-- [ ] [Third verification step]
+1. [Specific test step 1]
+2. [Specific test step 2]
+3. [Expected result]
 
-### Manual Testing:
+### Troubleshooting:
 
-1. [Step-by-step testing instructions]
-2. [Expected results for each step]
-3. [What success looks like]
+**Issue:** [Common problem]  
+**Fix:** [Clear solution]
 
-### Troubleshooting Common Issues:
-
-**Problem:** [Common error students encounter] **Solution:** [Clear fix with explanation]
-
-**Problem:** [Another common issue] **Solution:** [Clear fix with explanation]
+**Issue:** [Another common problem]  
+**Fix:** [Clear solution]
 
 ---
 
-## Project Progress Check
+## What You've Accomplished
 
-### What You've Built:
+✅ [Specific feature now working]  
+✅ [PHP concept mastered]  
+✅ [Integration completed]
 
-[Summary of functionality added in this lesson]
-
-### How It Fits:
-
-[How this connects to the overall platform]
-
-### What's Working Now:
-
-- [Feature 1 that now works]
-- [Feature 2 that now works]
-- [Feature 3 that now works]
-
----
-
-## Key Takeaways
-
-After completing this lesson, you should understand:
-
-- [Key learning point 1]
-- [Key learning point 2]
-- [Key learning point 3]
-- [Key learning point 4]
+**Your platform can now:** [New capability description]
 
 ---
 
 ## Next Up
 
-**Coming in Lesson X.X:** [Brief preview of next lesson]
-
-**You'll learn:** [1-2 key things from next lesson]
-
-**Files you'll work with:** [Files they'll modify next]
+**Lesson X.X:** [Next lesson title and main feature]
 
 ---
 
-## Additional Resources
+## Code Guidelines
 
-### Quick References:
-
-- [Relevant PHP documentation links]
-- [MySQL documentation if applicable]
-- [Security best practices links]
-
-### Going Deeper:
-
-- [Optional advanced topics]
-- [Related technologies to explore]
-- [Community resources]
-
----
-
-## Chapter Progress
-
-**Lessons Completed in Chapter X:**
-
-- [x] Lesson X.1: [Title]
-- [x] Lesson X.2: [Title]
-- [ ] Lesson X.3: [Current lesson]
-- [ ] Lesson X.4: [Upcoming lesson]
-- [ ] Lesson X.5: [Final lesson in chapter]
-
-**Chapter Goal:** [Reminder of what this chapter accomplishes]
-
-```
-
----
-
-## Section-Specific Variations
-
-### Section 1 (Learning Path) Adaptations:
-
-#### More Detailed Explanations:
-- Every line of code explained
-- More "why" explanations
-- Additional troubleshooting
-- Extra encouragement and motivation
-
-#### Learning Focus Elements:
-```markdown
-### 🎯 Learning Focus
-
-**New Programmers:** [Specific guidance for beginners]
-**Key Concept:** [The ONE most important thing to remember]
-**Common Confusion:** [What beginners often misunderstand]
-```
-
-#### Code Comments Style:
+### PHP Style Standards
 
 ```php
 <?php
-// This connects to our database
-// We learned about PDO in Lesson 3.5
-$pdo = new PDO($dsn, $username, $password);
+// File header with purpose
+/**
+ * Social Platform - Chapter X, Lesson X.X
+ * [Brief file description]
+ */
 
-// Get all posts from the database
-// The * means "select all columns"
-$stmt = $pdo->prepare("SELECT * FROM posts ORDER BY created_at DESC");
-$stmt->execute();
-$posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
+// Clear variable names
+$user_posts = [];           // Good
+$up = [];                   // Bad
+
+// Consistent spacing and indentation (4 spaces)
+if ($user_logged_in) {
+    echo "Welcome back!";
+
+    if ($has_notifications) {
+        show_notifications();
+    }
+}
+
+// Always include basic error handling
+try {
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute($params);
+} catch (PDOException $e) {
+    error_log($e->getMessage());
+    die("Database error occurred");
+}
 ?>
 ```
 
-### Section 2 (Builder's Path) Adaptations:
+### HTML Integration
 
-#### Professional Focus Elements:
-
-```markdown
-### 🏗️ Professional Notes
-
-**Architecture Decision:** [Why we're building it this way]
-**Scalability Consideration:** [How this handles growth]
-**Industry Standard:** [How this matches professional practices]
+```php
+<!-- PHP within HTML for larger content blocks -->
+<article class="post-card">
+    <header class="post-header">
+        <h3><?php echo htmlspecialchars($post['title']); ?></h3>
+        <span class="post-meta">
+            By <?php echo htmlspecialchars($post['username']); ?>
+            on <?php echo date('M j, Y', strtotime($post['created_at'])); ?>
+        </span>
+    </header>
+    <div class="post-content">
+        <?php echo nl2br(htmlspecialchars($post['content'])); ?>
+    </div>
+</article>
 ```
 
-#### Code Comments Style:
+---
+
+## CSS Standards (Chapter-Level)
+
+### Dark Theme Base Classes
+
+```css
+/* Chapter X styles.css - Shared across all lessons */
+
+/* Layout */
+.container { max-width: 800px; margin: 0 auto; padding: 20px; }
+.card { background: #2a2a2a; padding: 20px; margin: 15px 0; border-radius: 5px; }
+.flex { display: flex; align-items: center; gap: 10px; }
+
+/* Typography */
+body { background: #1a1a1a; color: #ccc; font-family: Arial, sans-serif; }
+.title { color: #fff; font-size: 1.4rem; margin-bottom: 10px; }
+.text { color: #ccc; line-height: 1.5; }
+.muted { color: #888; font-size: 0.9rem; }
+
+/* Forms */
+.form-group { margin-bottom: 15px; }
+.input { width: 100%; padding: 10px; background: #333; color: #fff; border: 1px solid #555; }
+.btn { padding: 10px 20px; background: #444; color: #fff; border: none; cursor: pointer; }
+.btn-primary { background: #007acc; }
+
+/* Components */
+.post-card { background: #2a2a2a; padding: 15px; margin: 10px 0; }
+.user-avatar { width: 40px; height: 40px; border-radius: 50%; }
+.nav-link { color: #ccc; text-decoration: none; padding: 10px; }
+.nav-link:hover { color: #fff; }
+```
+
+---
+
+## Section-Specific Adaptations
+
+### Section 1: Learning Focus
+
+#### Comment Style:
+
+```php
+<?php
+// Connect to our social platform database  
+// PDO is PHP's modern way to work with databases
+$pdo = new PDO($dsn, $username, $password);
+
+// Get all posts ordered by newest first
+// This SQL query gets posts with user information
+$sql = "SELECT p.*, u.username FROM posts p JOIN users u ON p.user_id = u.id ORDER BY p.created_at DESC";
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+$posts = $stmt->fetchAll();
+
+// Display each post
+foreach ($posts as $post) {
+    // Always escape user data to prevent XSS attacks
+    echo "<h3>" . htmlspecialchars($post['title']) . "</h3>";
+}
+?>
+```
+
+#### Learning Aids:
+
+- **💡 PHP Tip:** [Specific PHP knowledge]
+- **⚠️ Security Note:** [Important security consideration]
+- **🔗 Connection:** [How this relates to previous lessons]
+
+### Section 2: Professional Focus
+
+#### Comment Style:
 
 ```php
 <?php
 /**
- * PostRepository handles all post-related database operations
+ * PostController handles all post-related operations
  * 
- * @package SocialPlatform\Repositories
+ * @package SocialPlatform\Controllers
  */
-class PostRepository
+class PostController
 {
-    private PDO $db;
+    private PostRepository $postRepo;
 
-    public function __construct(PDO $db)
+    public function __construct(PostRepository $postRepo)
     {
-        $this->db = $db;
+        $this->postRepo = $postRepo;
     }
 
     /**
-     * Retrieve paginated posts with user information
-     * 
-     * @param int $page Page number (1-based)
-     * @param int $limit Posts per page
-     * @return array Collection of posts with user data
+     * Display paginated posts for the main feed
      */
-    public function getPaginatedPosts(int $page = 1, int $limit = 10): array
+    public function index(Request $request): Response
     {
-        $offset = ($page - 1) * $limit;
+        $posts = $this->postRepo->getPaginatedPosts(
+            $request->get('page', 1)
+        );
 
-        $sql = "SELECT p.*, u.username, u.avatar_url 
-                FROM posts p 
-                JOIN users u ON p.user_id = u.id 
-                WHERE p.is_published = 1 
-                ORDER BY p.created_at DESC 
-                LIMIT :limit OFFSET :offset";
-
-        $stmt = $this->db->prepare($sql);
-        $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
-        $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
-        $stmt->execute();
-
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $this->render('posts/index', compact('posts'));
     }
 }
 ?>
@@ -311,115 +296,70 @@ class PostRepository
 
 ---
 
-## File Naming Standards
+## Quality Checklist
 
-### Lesson Files:
+### Before Publishing Any Lesson:
 
-- **Format:** `chapter-XX-lesson-XX.md`
-- **Examples:** `chapter-01-lesson-01.md`, `chapter-12-lesson-05.md`
+**Code Quality:**
 
-### Code Files:
+- [ ] All code tested and working
+- [ ] Under 100 lines of new code
+- [ ] Clear, educational comments
+- [ ] Security basics included
+- [ ] Error handling present
 
-- **Section 1:** Descriptive names (`user-registration.php`, `post-display.php`)
-- **Section 2:** Professional structure (`UserController.php`, `PostRepository.php`)
+**Educational Value:**
 
-### Database Files:
+- [ ] Single clear learning objective
+- [ ] PHP concepts explained clearly
+- [ ] Practical application obvious
+- [ ] Builds on previous lessons logically
 
-- **Setup:** `database-setup.sql`
-- **Sample Data:** `sample-data.sql`
-- **Migrations:** `migration-001-create-users-table.sql`
+**Consistency:**
 
----
+- [ ] Uses established CSS classes
+- [ ] Follows naming conventions
+- [ ] Matches overall platform style
+- [ ] References previous work accurately
 
-## Quality Assurance Checklist
+### Testing Requirements:
 
-Before marking any lesson as complete, verify:
-
-### Content Quality:
-
-- [ ] Learning objectives are clear and achievable
-- [ ] Code examples are complete and tested
-- [ ] Step-by-step instructions are unambiguous
-- [ ] Troubleshooting covers common issues
-- [ ] Time estimate is realistic (±30 minutes)
-
-### Technical Accuracy:
-
-- [ ] All code runs without errors on fresh environment
-- [ ] Security best practices are demonstrated
-- [ ] Database queries are optimized
-- [ ] Error handling is included
-
-### Educational Value:
-
-- [ ] Builds logically on previous lessons
-- [ ] Practical application is clear
-- [ ] Students can see immediate results
-- [ ] Confidence-building elements included
-
-### Consistency:
-
-- [ ] Follows established naming conventions
-- [ ] Code style matches guidelines
-- [ ] Terminology is consistent with previous lessons
-- [ ] References to other lessons are accurate
+- [ ] Code works on fresh LAMP setup
+- [ ] All file permissions correct
+- [ ] Database operations function properly
+- [ ] Forms submit and validate correctly
+- [ ] CSS classes render properly
 
 ---
 
-## Time Allocation Guidelines
+## Time Management
 
 ### Typical Lesson Breakdown:
 
-- **Reading/Learning:** 20-30 minutes
-- **Hands-on Coding:** 60-90 minutes
-- **Testing/Verification:** 10-15 minutes
-- **Total:** 90-135 minutes (1.5-2.25 hours)
+- **Understanding concepts:** 15-20 minutes
+- **Hands-on coding:** 60-80 minutes
+- **Testing and troubleshooting:** 15-20 minutes
+- **Total:** 90-120 minutes
 
 ### Content Distribution:
 
-- **Concepts (30%):** Theory and explanation
-- **Practice (60%):** Hands-on implementation
-- **Review (10%):** Testing and reinforcement
+- **Concept explanation:** 20%
+- **Step-by-step coding:** 70%
+- **Testing and review:** 10%
 
 ---
 
-## Student Success Indicators
+## File Organization Per Lesson
 
-### Green Flags (Lesson is Working):
+```
+chapter-X/
+├── styles.css (shared across chapter)
+├── lesson-X.1/
+│   ├── filename.php (main lesson file)
+│   ├── additional-file.php (if needed)
+│   └── README.md (lesson content)
+└── lesson-X.2/
+    └── [same structure]
+```
 
-- Students complete within estimated time
-- Code works on first attempt for most students
-- Questions focus on extending functionality
-- High completion rate to next lesson
-
-### Red Flags (Needs Revision):
-
-- Consistent time overruns
-- Multiple "my code doesn't work" questions
-- Students getting stuck on same concepts
-- High dropout rate after specific lessons
-
----
-
-## Template Usage Instructions
-
-### For Each New Lesson:
-
-1. **Copy the template**
-2. **Fill in the header information**
-3. **Define 3-5 clear learning objectives**
-4. **Write the concept explanations**
-5. **Create step-by-step instructions**
-6. **Test all code thoroughly**
-7. **Add troubleshooting for common issues**
-8. **Review against quality checklist**
-9. **Get technical review before publishing**
-
-### Template Customization:
-
-- **Beginner lessons:** More explanation, simpler language
-- **Advanced lessons:** Focus on best practices, efficiency
-- **Project lessons:** Emphasize integration and testing
-- **Review lessons:** Consolidation and reinforcement
-
-This template ensures every lesson provides clear value, builds skills progressively, and maintains the high quality standards that will make this course genuinely valuable for students.
+This template ensures every lesson delivers working functionality while teaching PHP concepts efficiently within the 100-line constraint.
