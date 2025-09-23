@@ -409,7 +409,7 @@ include 'header.php';
                         <?php echo nl2br(htmlspecialchars($_POST['content'])); ?>
                     </div>
                     <div class="muted" style="margin-top: 10px;">
-                        ❤️ 0 likes • 💬 0 comments • 🔄 0 shares
+
                     </div>
                 </div>
             <?php endif; ?>
